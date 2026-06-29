@@ -74,4 +74,4 @@ With these improvements, the application could serve as a continuously updated a
 114zu1055 闕云宣 Isa Chueh
 
 ## Acknowledgments
-Special thanks to prof. Pien,  prof. Owen, Yoyo ,Joanne, Neri and Kevin for all the assistance along the way.
+Special thanks to prof. Pien,  prof. Owen, Yoyo, Joanne, Neri and Kevin for all the assistance along the way.
