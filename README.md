@@ -23,7 +23,7 @@ The application code used on Hugging Face and the required libraries and depende
 
 Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
 
-The data files of the 25 course can be viewed in the [Data Folder](data).
+The data files of the 25 courses can be viewed in the [Data Folder](data).
 
 
 ## File Structure
