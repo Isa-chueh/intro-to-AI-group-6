@@ -82,6 +82,8 @@ With these improvements, the application could serve as a continuously updated a
 ## Contributors
 113702013 游婷宇 Vera Yu
 
+114zu1012 郭希彥 Samuel Kuo
+
 114zu1024 黃心潔 Samantha Go
 
 114zu1055 闕云宣 Isa Chueh
