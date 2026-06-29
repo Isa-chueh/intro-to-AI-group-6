@@ -1,0 +1,12 @@
+pymongo
+pypdf
+langchain_community
+langchain_openai
+langchain
+langchain-core
+langchain-mongodb
+gradio
+openai
+pandas
+fpdf
+ics
