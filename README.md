@@ -18,6 +18,7 @@ Syllabuddy is created through python programming on Google Colab, uploading data
 ## Getting Started
 
 No downloads are necessary. Simply access Syllabuddy at https://introtoai-group6-syllabuddy.hf.space. It is readily available as a web application. Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
+
 The data files of the 25 course can be viewed in the [Data Folder](data).
 
 
