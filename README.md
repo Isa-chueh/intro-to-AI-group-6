@@ -1,6 +1,6 @@
-# The Ultimate National Cheng Chi University (NCCU) Student Survival Guide: Syllabuddy
+# The Ultimate National Chengchi University (NCCU) Student Survival Guide: Syllabuddy
 
-The Ultimate National Cheng Chi University (NCCU) 
+The Ultimate National Chengchi University (NCCU) 
 Student Survival Guide: Syllabuddy
 
 ## Project Description
