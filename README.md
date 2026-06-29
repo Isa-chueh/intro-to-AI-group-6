@@ -7,7 +7,9 @@ Student Survival Guide: Syllabuddy
 
 Every new semester at National Chengchi University is a new beginning. Students, especially freshmen, anticipate the opening of the school’s online course selection system so that they can grab the courses they plan to take for the semester. Some students have it together like they are certain about their selected courses and their semester’s overall workload, and they may already have a general idea of how to manage their time. This is the ideal situation that all students wish to have. However, more often than not, students, most especially freshmen, struggle to gauge the weight of the workload relative to the number of selected courses. This issue can be attributed to several factors, such as the differing teaching styles, class schedules, and course requirements. As a result, students are prone to suffer burnout during midterms and finals season due to the lack of adequate pre-semester planning and time management throughout the semester. Currently, the course selection system only provides a week-long schedule based on a student’s selected courses. See Figure 1.1. 
 
+
 <img width="876" height="974" alt="image" src="https://github.com/user-attachments/assets/863bb4fd-d452-4142-b3c9-3471a05e42e5" />
+
 
 Although this chart sufficiently provides a general overview of the number of hours and classes a student takes for a semester, it does not provide a detailed description of each class’s workload and the types of assignments that comprise the course. Due to the lack of a unified list, students could only check each course description page one by one to familiarize themselves with the course’s assignments and workloads. 
  
@@ -24,7 +26,7 @@ The application code used on Hugging Face and the required libraries and depende
 
 Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
 
-The data files of the 25 courses can be viewed in the [data](data) folder.
+The PDF files of the 25 courses can be viewed in the [data](data) folder.
 
 
 ## File Structure
