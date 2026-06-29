@@ -89,9 +89,9 @@ With these improvements, the application could serve as a continuously updated a
 
 114zu1024 黃心潔 Samantha Go
 
-114zu1055 闕云宣 Isa Chueh
-
 114zu1031 蘭愛真 Elvira Elisabeth Lannér
+
+114zu1055 闕云宣 Isa Chueh
 
 ## Acknowledgments
 Special thanks to prof. Pien,  prof. Owen, Yoyo, Joanne, Neri and Kevin for all the assistance along the way.
