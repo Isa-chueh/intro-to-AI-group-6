@@ -18,6 +18,9 @@ Syllabuddy is created through python programming on Google Colab, uploading data
 ## Getting Started
 
 No downloads are necessary. Simply access Syllabuddy at https://introtoai-group6-syllabuddy.hf.space. It is readily available as a web application. Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
+The data files of the 25 course can be viewed in the [Data Folder](data).
+
+
 ## File Structure
 The project consists of the main application (app.py), which contains the Gradio interface, the RAG pipeline, schedule generation, and export functions. The deployment environment on Hugging Face also includes a requirements.txt file that specifies the libraries and dependencies required to run the application.
 Our project uses PDF documents as the knowledge base for the RAG system. Each PDF file represents a single course and is named using the course number. Using the course number as the file name provides a unique identifier for each course and helps the retrieval system locate the correct document more efficiently.
