@@ -58,7 +58,8 @@ An additional improvement would be for the university to adopt a standardized sy
 With these improvements, the application could serve as a continuously updated academic planning tool, allowing students to view an accurate overview of their semester workload before classes begin and throughout the entire term without requiring manual maintenance by the system developers.
 
 ## Contributors
-114zu1055 闕云宣Isa
+113702013 游婷宇 Vera Yu
+114zu1055 闕云宣 Isa Chueh
 
 ## Acknowledgments
 Special thanks to prof. Pien,  prof. Owen, Yoyo ,Joanne, Neri and Kevin for all the assistance along the way.
