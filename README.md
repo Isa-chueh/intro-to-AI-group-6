@@ -50,7 +50,7 @@ Because of this problem, we designed Syllabuddy as a tool that could help studen
 
 Our proposed process was shown through a flowchart that explains how Syllabuddy works from input to output. The flow begins with the user entering the course numbers of the classes they are interested in. The system then retrieves the corresponding syllabus files from the database. After that, the AI checks the syllabus content for important academic activities such as assignments, quizzes, tests, exams, and major project deadlines. If the syllabus includes exact dates, the system uses those dates directly. If the syllabus only provides weekly schedules, the date is calculated by the system. The extracted information is then converted into a structured format and combined with the requirements from other courses. Finally, the extracted information is intended to be combined into one unified list of deadlines arranged in chronological order.
 
-![Flow Chart](Initial Design.png)
+![Flow Chart](Initial%20Design.png)
 
 This flowchart helped our group visualize the logic behind the app and explain why each feature was necessary. Instead of leaving students to open and compare multiple syllabi on their own, Syllabuddy turns scattered course information into a single organized output. This also supports the app’s ability to help students identify possible “Hell Weeks,” or weeks where several exams, quizzes, and assignments overlap. In this way, the design of the system connects directly to the problem we wanted to solve: helping students make better decisions about their workload and time management.
 
