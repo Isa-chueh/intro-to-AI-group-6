@@ -19,8 +19,18 @@ Syllabuddy is created through python programming on Google Colab, uploading data
 
 No downloads are necessary. Simply access Syllabuddy at https://introtoai-group6-syllabuddy.hf.space. It is readily available as a web application. Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
 ## File Structure
+The project consists of the main application (app.py), which contains the Gradio interface, the RAG pipeline, schedule generation, and export functions. The deployment environment on Hugging Face also includes a requirements.txt file that specifies the libraries and dependencies required to run the application.
+Our project uses PDF documents as the knowledge base for the RAG system. Each PDF file represents a single course and is named using the course number. Using the course number as the file name provides a unique identifier for each course and helps the retrieval system locate the correct document more efficiently.
+Each PDF contains the following information:
++ Course name
++ Course number
++ Class dates
++ Weekly schedule (Week 1 to Week 16)
++ In-class activities (include assignments and exams)
 
-[Describe the file structure of your project, including how the files are organized and what each file contains. Be sure to explain the purpose of each file and how they are related to one another.]
+The content of each file is organized chronologically according to the course syllabus. This consistent structure allows the RAG system to retrieve not only the correct course document but also the relevant weekly information when answering user queries.
+All course files follow the same format, making them closely related within the knowledge base. The standardized organization enables the system to process documents consistently, compare information across different courses, and retrieve accurate and relevant context for users' questions.
+
 
 ## Analysis
 
@@ -28,16 +38,27 @@ No downloads are necessary. Simply access Syllabuddy at https://introtoai-group6
 
 ## Results
 
-[Provide a summary of your findings and conclusions, including any recommendations or implications for future research. Be sure to explain how your results address your research question or problem statement.]
+The final output of our project is an interactive study planning tool that allows students to generate a personalized semester schedule based on the courses they choose to enroll in. Rather than requiring students to manually read through every syllabus, the system automatically extracts important deadlines and presents them in a clear, organized format. This enables students to gain an overview of their workload before and during the semester.
+
+After selecting their desired courses, the system uses a RAG model to retrieve information from the corresponding course syllabi and identify key academic events, including assignments and examinations. These tasks are then combined into a single schedule and displayed in a weekly table. Instead of presenting information course by course, the system reorganizes all deadlines into chronological order, allowing students to easily identify when multiple assignments or exams occur during the same week. This provides a much clearer overview of the semester than reading individual syllabi separately. 
+
+To further improve usability, the schedule includes a visual stress indicator for each week. The program calculates a stress score based on the number and type of academic tasks. Examination weeks receive a higher weight than assignment only weeks because exams generally require more preparation time. The results are displayed using a color coded system, where lighter colors represent weeks with a relatively low workload and darker shades of red indicate weeks expected to be more academically demanding. This visual representation allows students to quickly recognize periods of high workload and prepare accordingly by starting assignments earlier or adjusting their study plans.
+
+Recognizing that course schedules often change throughout the semester, our system also provides an editing function. Users are able to manually modify the generated schedule by adding new assignments, changing deadlines, or deleting outdated tasks if instructors announce changes after the semester has begun. Once these edits have been confirmed, the stress visualization is automatically updated to reflect the revised workload. This flexibility ensures that the schedule remains useful throughout the entire semester rather than becoming outdated after the initial course selection.
+
+Finally, students can export their personalized schedule as either a PDF or CSV file. This allows them to download and save their study plan for offline use or import it into other planning tools. By providing an editable and downloadable schedule, the system becomes a practical resource that students can continue using throughout the term rather than simply viewing the information once.  Overall, the results demonstrate that our system successfully transforms large amounts of syllabus information into an accessible and user-friendly planning tool. Instead of manually searching through multiple course documents, students receive a single, organized overview of all important academic deadlines and workload distribution across the semester. This can help improve time management, reduce unexpected deadline conflicts, and support more effective study planning.
+
+## Future Applications
+Although the current prototype successfully demonstrates the concept, its main limitation is that the database must be created and maintained manually. Because our system is not connected to NCCU's course selection system or the university's internal databases, the project team must manually collect course syllabi, process them, and upload the information into the RAG database before students can use the application. Whenever instructors update their syllabi or assignment deadlines, the database must also be updated manually by the creators to ensure that the information remains accurate.
+
+In the future, the system could be integrated directly with NCCU's course selection system. Since course information and deadlines are already available before students register for their classes, the RAG system could retrieve this information automatically without requiring the project developers to build and maintain a separate database. As a result, any changes made by instructors such as updated assignment deadlines, newly announced examinations, or revised course schedules would be reflected immediately in the application through automatic database updates.
+
+An additional improvement would be for the university to adopt a standardized syllabus format. Currently, instructors organize their syllabi using different layouts and wording, making it more difficult for the RAG system to consistently identify assignments, examinations, readings, presentations, and other important course activities. By introducing a common template with clearly defined categories, the retrieval process would become more accurate and reliable, improving the overall performance of the system.
+
+With these improvements, the application could serve as a continuously updated academic planning tool, allowing students to view an accurate overview of their semester workload before classes begin and throughout the entire term without requiring manual maintenance by the system developers.
 
 ## Contributors
-
-[List the contributors to your project and describe their roles and responsibilities.]
+114zu1055 闕云宣Isa
 
 ## Acknowledgments
-
-[Thank any individuals or organizations who provided support or assistance during your project, including funding sources or data providers.]
-
-## References
-
-[List any references or resources that you used during your project, including data sources, analytical methods, and tools.]
+Special thanks to prof. Pien,  prof. Owen, Yoyo ,Joanne, Neri and Kevin for all the assistance along the way.
