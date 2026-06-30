@@ -24,8 +24,6 @@ No downloads are necessary. Simply access Syllabuddy at https://introtoai-group6
 
 The application code used on Hugging Face and the required libraries and dependencies and be viewed in the files [app.py](app.py) and [requirements.txt](requirements.txt) respectively.
 
-Alternatively, the Google Colab project is available at  https://colab.research.google.com/drive/1sT8u_En_PO6oVbx9r6BZwN46BGEIruye?usp=sharing.
-
 The PDF files of the 25 courses can be viewed in the [data](data) folder.
 
 
